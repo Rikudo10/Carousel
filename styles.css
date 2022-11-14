@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    padding-left: 0rem !important;
+    font-family: 'Yomogi', cursive;
+}
+header{
+    z-index: 2;
+  }
+  .my-carousel .carousel-inner {
+    height: 100vh;
+  }
+.my-carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+.carousel-caption {
+    padding-bottom: 270px !important;
+}
+.h5s {
+    font-weight: bold ;
+    font-size: larger ;
+}
+h5 {
+    font-size: 50px !important;
+    color: #9cfaea;
+}
+p {
+    font-size: larger;
+    color: #3cfe9f;
+    font-weight: bold;
+}
+.icon {
+    font-size: large;
+    color: white !important;
+}
+.buttonmy {
+    width: 200px;
+    border: 2px solid !important;
+    border-radius: 20px !important;
+    font-weight: bold !important;
+    font-size: larger !important;
+}
+.headerdiv {
+    position: relative;
+    display: grid;
+    margin-top: 20px;
+}
+.h1class {
+    width: 100px;
+    margin-right: auto;
+}
+h1 {
+    display: inline-block;
+    font-size: xx-large;
+    color: #09ff00 ;
+}
+.span1 {
+    color: cyan;
+}
+.arrow {
+    font-weight: bold !important;
+    color: #09ff00 !important;
+}
+.navv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.ulclass {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    margin-bottom: 0;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover .dropdown_menu {
+    display: block;
+    content: "";
+}
+.a1 {
+    color: #00ff00 !important;
+}
+.ul2 li{
+    padding: 10px;
+    padding-right: auto;
+}
+a {
+    font-weight: bold;
+    font-size: large;
+    color: #00ff00 !important;
+    transition: 0.5s;
+}
+a:hover {
+    color: white !important;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 100% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
